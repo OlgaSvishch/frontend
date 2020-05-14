@@ -1,0 +1,45 @@
+*, 
+*after,
+*befor {
+	box-sizing: border-box;
+}
+
+.form-holder {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px 40px 30px 20px;
+	border: 1px solid #000;
+	border-radius: 5%;
+}
+
+.form-holder h3 {
+	text-align: center;
+	font-size: 24px;
+	padding: 0 0 20px;
+	margin: 0;
+}
+
+.form-holder input {
+	width: 100%;
+	min-height: 30px;
+	margin: 20px 0;
+	padding: 10px;
+}
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px 30px;
+	color: #fff;
+	background: #00f;
+	border: 1px solid #00f;
+	font-size: 14px;
+	font-weight:bold;
+}
+	
+.btn:hover {
+	background:#fff;
+	color: #00f;
+	border: 1px solid #00f;
+	transition: all 0.5s;
+	}
